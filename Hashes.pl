@@ -14,4 +14,13 @@ my $englandCity = $countries{"England"};
 # Add 
 $countries{"peru"} = "very large";
 
+# Delete 
+delete $countries{"Australia"}; # sydney 
+
+my %hash_food_qw = qw(
+       burger 500
+       cola 301
+       chips 54
+);
 print Dumper(\%countries);
+print Dumper(\%hash_food_qw);
